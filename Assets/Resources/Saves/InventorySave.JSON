@@ -1,0 +1,42 @@
+[
+  {
+    "itemType": 1,
+    "rarity": 0,
+    "title": "Helmet"
+  },
+  {
+    "itemType": 0,
+    "rarity": 0,
+    "title": "Sword"
+  },
+  {
+    "boostDuration": 0.0,
+    "stat": 2,
+    "boostValue": 0,
+    "itemType": 3,
+    "rarity": 3,
+    "title": ""
+  },
+  {
+    "defence": 0,
+    "itemType": 1,
+    "rarity": 0,
+    "title": "Helmet"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  null,
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  null,
+  null,
+  null,
+  null,
+  null
+]

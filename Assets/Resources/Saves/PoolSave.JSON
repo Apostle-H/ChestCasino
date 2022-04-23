@@ -1,0 +1,288 @@
+[
+  {
+    "itemType": 1,
+    "rarity": 0,
+    "title": "Helmet"
+  },
+  {
+    "itemType": 0,
+    "rarity": 0,
+    "title": "Sword"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 1,
+    "rarity": 0,
+    "title": "Helmet"
+  },
+  {
+    "itemType": 2,
+    "rarity": 0,
+    "title": "Mask"
+  },
+  {
+    "itemType": 0,
+    "rarity": 0,
+    "title": "Sword"
+  },
+  {
+    "itemType": 2,
+    "rarity": 2,
+    "title": "Aboba"
+  },
+  {
+    "itemType": 3,
+    "rarity": 1,
+    "title": ""
+  },
+  {
+    "itemType": 3,
+    "rarity": 1,
+    "title": ""
+  },
+  {
+    "itemType": 1,
+    "rarity": 1,
+    "title": ""
+  },
+  {
+    "itemType": 1,
+    "rarity": 1,
+    "title": ""
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 1,
+    "rarity": 0,
+    "title": "Helmet"
+  },
+  {
+    "itemType": 1,
+    "rarity": 0,
+    "title": "Helmet"
+  },
+  {
+    "itemType": 3,
+    "rarity": 3,
+    "title": ""
+  },
+  {
+    "itemType": 0,
+    "rarity": 1,
+    "title": "SwordStrong"
+  },
+  {
+    "itemType": 0,
+    "rarity": 0,
+    "title": "Sword"
+  },
+  {
+    "itemType": 1,
+    "rarity": 0,
+    "title": "Helmet"
+  },
+  {
+    "itemType": 1,
+    "rarity": 0,
+    "title": "Helmet"
+  },
+  {
+    "itemType": 0,
+    "rarity": 0,
+    "title": "Sword"
+  },
+  {
+    "itemType": 1,
+    "rarity": 0,
+    "title": "Helmet"
+  },
+  {
+    "itemType": 2,
+    "rarity": 0,
+    "title": "Mask"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "stat": 2,
+    "boostValue": 0,
+    "itemType": 2,
+    "rarity": 2,
+    "title": "Aboba"
+  },
+  {
+    "boostDuration": 0.0,
+    "stat": 1,
+    "boostValue": 0,
+    "itemType": 3,
+    "rarity": 1,
+    "title": ""
+  },
+  {
+    "boostDuration": 0.0,
+    "stat": 1,
+    "boostValue": 0,
+    "itemType": 3,
+    "rarity": 1,
+    "title": ""
+  },
+  {
+    "defence": 0,
+    "itemType": 1,
+    "rarity": 1,
+    "title": ""
+  },
+  {
+    "defence": 0,
+    "itemType": 1,
+    "rarity": 1,
+    "title": ""
+  },
+  {
+    "boostDuration": 0.0,
+    "stat": 0,
+    "boostValue": 0,
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "boostDuration": 0.0,
+    "stat": 0,
+    "boostValue": 0,
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "defence": 0,
+    "itemType": 1,
+    "rarity": 0,
+    "title": "Helmet"
+  },
+  {
+    "stat": 0,
+    "boostValue": 0,
+    "itemType": 2,
+    "rarity": 0,
+    "title": "Mask"
+  },
+  {
+    "damage": 0,
+    "itemType": 0,
+    "rarity": 0,
+    "title": "Sword"
+  },
+  {
+    "damage": 0,
+    "itemType": 0,
+    "rarity": 0,
+    "title": "Sword"
+  },
+  {
+    "damage": 0,
+    "itemType": 0,
+    "rarity": 1,
+    "title": "SwordStrong"
+  },
+  {
+    "itemType": 2,
+    "rarity": 0,
+    "title": "Mask"
+  },
+  {
+    "itemType": 0,
+    "rarity": 0,
+    "title": "Sword"
+  },
+  {
+    "boostDuration": 0.0,
+    "stat": 0,
+    "boostValue": 0,
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "boostDuration": 0.0,
+    "stat": 0,
+    "boostValue": 0,
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "boostDuration": 0.0,
+    "stat": 0,
+    "boostValue": 0,
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 0,
+    "rarity": 0,
+    "title": "Sword"
+  },
+  {
+    "itemType": 3,
+    "rarity": 0,
+    "title": "Heal"
+  },
+  {
+    "itemType": 0,
+    "rarity": 0,
+    "title": "Sword"
+  }
+]

@@ -8,12 +8,14 @@ public class Item
     public ItemType itemType;
     public Rarity rarity;
     public string title;
+    public string imageName;
 
-    public Item(ItemType itemType, Rarity rarity, string title)
+    public Item(ItemType itemType, Rarity rarity, string title, string mainSprite)
     {
         this.itemType = itemType;
         this.rarity = rarity;
         this.title = title;
+        this.imageName = mainSprite;
     }
 
     public override string ToString()
@@ -27,7 +29,7 @@ public class Weapon : Item
 {
     public int damage;
 
-    public Weapon(ItemType itemType, Rarity rarity, string title, int damage) : base(itemType, rarity, title)
+    public Weapon(ItemType itemType, Rarity rarity, string title, string mainSprite, int damage) : base(itemType, rarity, title, mainSprite)
     {
         this.damage = damage;
     }
@@ -43,7 +45,7 @@ public class Armor : Item
 {
     public int defence;
 
-    public Armor(ItemType itemType, Rarity rarity, string title, int defence) : base(itemType, rarity, title)
+    public Armor(ItemType itemType, Rarity rarity, string title, string mainSprite, int defence) : base(itemType, rarity, title, mainSprite)
     {
         this.defence = defence;
     }
@@ -60,8 +62,8 @@ public class Artifact : Item
     public Stat stat;
     public int boostValue;
 
-    public Artifact(ItemType itemType, Rarity rarity, string title, Stat stat, int boostValue)
-        : base(itemType, rarity, title)
+    public Artifact(ItemType itemType, Rarity rarity, string title, string mainSprite, Stat stat, int boostValue)
+        : base(itemType, rarity, title, mainSprite)
     {
         this.stat = stat;
         this.boostValue = boostValue;
@@ -78,8 +80,8 @@ public class Consumable : Artifact
 {
     public float boostDuration;
 
-    public Consumable(ItemType itemType, Rarity rarity, string title, Stat stat, int boostValue, float boostDuration)
-        : base(itemType, rarity, title, stat, boostValue)
+    public Consumable(ItemType itemType, Rarity rarity, string title, string mainSprite, Stat stat, int boostValue, float boostDuration)
+        : base(itemType, rarity, title, mainSprite, stat, boostValue)
     {
         this.boostDuration = boostDuration;
     }

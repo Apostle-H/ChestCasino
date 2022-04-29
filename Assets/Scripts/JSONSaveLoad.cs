@@ -6,8 +6,8 @@ using System.IO;
 
 public class JSONSaveLoad
 {
-    public static string inventorySavePath = @"D:\ITHub\2\Unity Projects\ChestCasino\Assets\Resources\Saves\InventorySave.JSON";
-    public static string poolSavePath = @"D:\ITHub\2\Unity Projects\ChestCasino\Assets\Resources\Saves\PoolSave.JSON";
+    public static string inventorySavePath = Application.persistentDataPath + "InventorySave.JSON";
+    public static string poolSavePath = Application.persistentDataPath + "PoolSave.JSON";
 
     public static void WriteInventoryJSON()
     {

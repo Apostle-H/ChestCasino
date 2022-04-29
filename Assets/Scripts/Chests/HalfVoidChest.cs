@@ -10,7 +10,6 @@ public class HalfVoidChest : IChest
 
         for (int i = 0; i < Inventory.Instance.occupiedSlots.Count * voidness; i++)
         {
-            Debug.Log(i);
             int removeItemIndex = Random.Range(0, Inventory.Instance.occupiedSlots.Count);
             Inventory.Instance.RemoveItem(Inventory.Instance.occupiedSlots[removeItemIndex]);
         }

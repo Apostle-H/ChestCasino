@@ -34,7 +34,7 @@ public class ItemsPool : MonoBehaviour
             return;
         }
 
-        foreach (ItemSO item in Resources.LoadAll("Items"))
+        foreach (ItemSO item in Resources.LoadAll(@"Items\SO's"))
         {
             for (int i = 0; i < item.inShopAvailableCount; i++)
             {
@@ -53,22 +53,22 @@ public class ItemsPool : MonoBehaviour
         {
             case ItemType.weapon:
                 WeaponSO weaponSO = (WeaponSO)itemSO;
-                Weapon weapon = new Weapon(weaponSO.itemType, weaponSO.rarity, weaponSO.title, weaponSO.damage);
+                Weapon weapon = new Weapon(weaponSO.itemType, weaponSO.rarity, weaponSO.title, weaponSO.imageName, weaponSO.damage);
                 _pool.Add(weapon);
                 break;
             case ItemType.armor:
                 ArmorSO armorSO = (ArmorSO)itemSO;
-                Armor armor = new Armor(armorSO.itemType, armorSO.rarity, armorSO.title, armorSO.defence);
+                Armor armor = new Armor(armorSO.itemType, armorSO.rarity, armorSO.title, armorSO.imageName, armorSO.defence);
                 _pool.Add(armor);
                 break;
             case ItemType.artifact:
                 ArtifactSO artifactSO = (ArtifactSO)itemSO;
-                Artifact artifact = new Artifact(artifactSO.itemType, artifactSO.rarity, artifactSO.title, artifactSO.stat, artifactSO.boostValue);
+                Artifact artifact = new Artifact(artifactSO.itemType, artifactSO.rarity, artifactSO.title, artifactSO.imageName, artifactSO.stat, artifactSO.boostValue);
                 _pool.Add(artifact);
                 break;
             case ItemType.consumable:
                 ConsumableSO consumableSO = (ConsumableSO)itemSO;
-                Consumable consumable = new Consumable(consumableSO.itemType, consumableSO.rarity, consumableSO.title, consumableSO.stat,
+                Consumable consumable = new Consumable(consumableSO.itemType, consumableSO.rarity, consumableSO.title, consumableSO.imageName, consumableSO.stat,
                     consumableSO.boostValue, consumableSO.boostDuration);
                 _pool.Add(consumable);
                 break;

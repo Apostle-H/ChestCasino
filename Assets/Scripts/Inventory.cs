@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System.IO;
 
 public class Inventory : MonoBehaviour
 {
     public static Inventory Instance { get; private set; }
 
     [SerializeField] private Transform inventoryPanel;
+    [SerializeField] private Image test;
 
     public Item[] storedItems { get; private set; }
     public List<int> occupiedSlots { get; private set; } = new List<int>();
@@ -26,6 +29,9 @@ public class Inventory : MonoBehaviour
                     if (storedItems[i] != null)
                     {
                         inventoryPanel.GetChild(i).GetChild(0).gameObject.SetActive(true);
+                        inventoryPanel.GetChild(i).GetChild(0).gameObject.GetComponent<Image>().sprite = Resources.Load<Sprite>($@"Items\MainSprites\{storedItems[i].imageName}");
+
+                        inventoryPanel.GetChild(i).GetChild(1).gameObject.SetActive(true);
 
                         occupiedSlots.Add(i);
                     }
@@ -35,8 +41,6 @@ public class Inventory : MonoBehaviour
             {
                 storedItems = new Item[12];
             }
-
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -52,6 +56,9 @@ public class Inventory : MonoBehaviour
             {
                 storedItems[i] = item;
                 inventoryPanel.GetChild(i).GetChild(0).gameObject.SetActive(true);
+                inventoryPanel.GetChild(i).GetChild(0).gameObject.GetComponent<Image>().sprite = Resources.Load<Sprite>($@"Items\MainSprites\{item.imageName}");
+
+                inventoryPanel.GetChild(i).GetChild(1).gameObject.SetActive(true);
 
                 occupiedSlots.Add(i);
                 break;
@@ -70,6 +77,7 @@ public class Inventory : MonoBehaviour
         occupiedSlots.Remove(index);
 
         inventoryPanel.GetChild(index).GetChild(0).gameObject.SetActive(false);
+        inventoryPanel.GetChild(index).GetChild(1).gameObject.SetActive(false);
 
         JSONSaveLoad.WriteInventoryJSON();
     }
